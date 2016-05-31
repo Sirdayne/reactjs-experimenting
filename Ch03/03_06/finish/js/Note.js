@@ -2,12 +2,18 @@ var Note = React.createClass({
     getInitialState: function() {
         return {editing: false}
     },
+    
+    
     edit: function() {
         this.setState({editing: true});
     },
+    
+    
     save: function() {
         this.setState({editing: false});
     },
+    
+    
     remove: function() {
         alert('removing note');
     },
