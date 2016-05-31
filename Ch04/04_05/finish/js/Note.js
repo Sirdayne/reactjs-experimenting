@@ -44,6 +44,7 @@ var Note = React.createClass({
     }
 });
 
+
 var Board = React.createClass({
     propTypes: {
         count: function(props, propName) {
