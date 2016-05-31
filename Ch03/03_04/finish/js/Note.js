@@ -1,10 +1,15 @@
 var Note = React.createClass({
+    
     edit: function() {
         alert('editing note');
     },
+    
     remove: function() {
         alert('removing note');
     },
+    
+    
+    
     render: function() {
         return (
             <div className="note">
