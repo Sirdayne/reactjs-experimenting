@@ -5,13 +5,7 @@ var MyComponent = React.createClass({
                 <h1>{this.props.text}</h1>
                     <p>{this.props.children}</p>
             </div>;
-                
-            
-            
         }
-    
-    
-    
 });
 
         React.render(
